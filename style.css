@@ -1,0 +1,72 @@
+div.sidebar div.sidebar-content {
+    text-align: center;
+}
+.sidebar {
+    margin-right: 0;
+    background-color: rgba(41,129,161, 0);
+    
+}
+[data-testid="stHeader"] {
+    background-color: rgba(41,129,161, 0);
+}
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)), url('https://watermark.lovepik.com/photo/40252/5802.jpg_wh1200.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+[data-testid="stSidebarContent"] {
+    background-color: rgba(150,190,205, 1);
+}
+[data-testid="stFullScreenFrame"]{
+    width: 100%;
+}
+.sidebar-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f53918; 
+    margin-bottom: 20px;
+}
+.sidebar-text {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.sidebar-uploader {
+    margin-bottom: 20px;
+}
+.stButton >button{
+    background-color: #f53918;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+.stButton >button:hover {
+    background-color: #890aa9 !important;
+    color:#90b1d3 !important;
+}
+.footer {
+    height: 50px;
+    text-align: center;
+    padding-bottom: 0 !important;
+    margin-bottom: 10px !important;
+    
+}
+.sidebar .sidebar-content {
+    order: -1;
+}
+.appview-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.st-emotion-cache-1jicfl2 {
+    padding-top: 40px !important;
+}
